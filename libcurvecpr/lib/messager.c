@@ -6,14 +6,12 @@
 #include <curvecpr/bytes.h>
 #include <curvecpr/chicago.h>
 #include <curvecpr/trace.h>
+#include <curvecpr/crypto_uint.h>
 
 #include <errno.h>
 #include <stdint.h>
 #include <string.h>
 
-#include <sodium/crypto_uint16.h>
-#include <sodium/crypto_uint32.h>
-#include <sodium/crypto_uint64.h>
 
 #define _STOP_SUCCESS 2048
 #define _STOP_FAILURE 4096

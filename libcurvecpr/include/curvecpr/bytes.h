@@ -7,9 +7,7 @@ extern "C" {
 
 #include <string.h>
 
-#include <sodium/crypto_uint16.h>
-#include <sodium/crypto_uint32.h>
-#include <sodium/crypto_uint64.h>
+#include "crypto_uint.h"
 
 void curvecpr_bytes_copy (void *destination, const void *source, size_t num);
 void curvecpr_bytes_zero (void *destination, size_t num);

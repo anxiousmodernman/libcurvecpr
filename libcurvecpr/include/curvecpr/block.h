@@ -7,8 +7,7 @@ extern "C" {
 
 #include <string.h>
 
-#include <sodium/crypto_uint32.h>
-#include <sodium/crypto_uint64.h>
+#include "crypto_uint.h"
 
 enum curvecpr_block_eofflag {
     CURVECPR_BLOCK_STREAM,

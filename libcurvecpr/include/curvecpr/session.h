@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include <sodium/crypto_uint64.h>
+#include "crypto_uint.h"
 
 struct curvecpr_session {
     /* Any extensions. */

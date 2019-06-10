@@ -10,7 +10,7 @@ extern "C" {
 
 #include <string.h>
 
-#include <sodium/crypto_uint32.h>
+#include "crypto_uint.h"
 
 struct curvecpr_messager;
 
